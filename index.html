@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Water,Snake,Gun Game!</h1>
+    <div class="r1">
+    <img src="water.jpg" alt="snake" width="200px" height="200px" />
+    <span>-</span>
+    <h2 class="snakesc"></h2>
+  </div>
+  <div class="r1">
+    <img src="snake.jpg" alt="water" width="200px" height="200px" />
+    <span>-</span>
+    <h2 class="watersc"></h2>
+  </div>
+     <div class="r1">  
+    <img src="gun.jpg" alt="gun" width="180px" height="180px" />
+    <span>-</span>
+    <h2 class="gunsc"></h2>
+   </div>
+
+    
+    <h2 id="vs"></h2>
+    <b>round : </b>
+    <h4 class="round"></h4>
+    <pre>
+    <h2>THE WINNER IS : </h2>
+</pre>
+    <button id="playbtn" onclick="generateGame()">click to play</button>
+    <script src="script.js"></script>
+</body>
+</html>
